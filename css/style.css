@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+/* logo de nav en donde sea aplicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+#logo{
+    width: 30%;
+    align-items: center;
+  }
+
+header{
+    width: 100%;
+}
+
+/* nav children style*/
+.encabezado{
+    background-image: url(/img/XiP3qS0.jpg);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    flex-wrap:nowrap;
+    width:100%;
+    font-size: 25px;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
