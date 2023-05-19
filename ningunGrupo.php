@@ -10,7 +10,7 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <title>Ningun Grupo</title>
 </head>
-<body>
+<body class="ninguno">
 
     <header>
         <section class="encabezado">
@@ -21,7 +21,19 @@
     <nav></nav>
 
     <main>
-        <h1>Usted no pertenece a ningun grupo</h1>
+        <div class="contenedor">
+                
+            <h1>------ NO FUE ADMITIDO EN NINGUN GRUPO 😢------</h1>
+            <h2>
+                <?php
+                    session_start();
+    
+                    echo $_SESSION['nombre'];
+                    echo "  " .$_SESSION['apellidos'];
+                ?>
+            </h2>
+                    
+        </div>
     </main>
 
     <footer></footer>

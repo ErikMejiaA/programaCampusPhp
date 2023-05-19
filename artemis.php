@@ -10,7 +10,7 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <title>Artemis</title>
 </head>
-<body>
+<body class="artemis">
 
     <header>
         <section class="encabezado">
@@ -21,7 +21,19 @@
     <nav></nav>
 
     <main>
-        <h1>Bienvenido a ARTEMIS</h1>
+        <div class="contenedor">
+                
+            <h1>...... BIENVENIDO A ARTEMIS 😊......</h1>
+            <h2>
+                <?php
+                        session_start();
+
+                        echo $_SESSION['nombre'];
+                        echo "  " .$_SESSION['apellidos'];
+                ?>
+            </h2>
+                
+        </div>
     </main>
 
     <footer></footer>

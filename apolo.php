@@ -10,7 +10,7 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <title>Apolo</title>
 </head>
-<body>
+<body class="apolo">
 
     <header>
         <section class="encabezado">
@@ -20,8 +20,22 @@
 
     <nav></nav>
 
-    <main>
-        <h1>Bienvenido a APOLO</h1>
+    <main >
+
+        <div class="contenedor">
+            
+            <h1>++++++ BIENVENIDO A APOLO 😎++++++</h1>
+            <h2>
+                <?php
+                    session_start();
+
+                    echo $_SESSION['nombre'];
+                    echo "  " .$_SESSION['apellidos'];
+                ?>
+            </h2>
+            
+        </div>
+        
     </main>
 
     <footer></footer>

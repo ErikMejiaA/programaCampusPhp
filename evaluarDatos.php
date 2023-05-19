@@ -1,4 +1,11 @@
 <?php
+    session_start(); //iniciamos una session para poder llevar datos a otra pagina
+
+    $Nombre = $_POST['nombre'];
+    $Apellidos = $_POST['apellidos'];
+    
+    $_SESSION['nombre'] = $Nombre;
+    $_SESSION['apellidos']= $Apellidos;
 
     $lenguajes = $_POST['programa'];
     $idioma = $_POST["idioma"];
@@ -19,10 +26,8 @@
         header("Location:spunik.php");
 
     } else {
-        echo "Usted no pertenece a ningun grupo :(";
         header("Location:ningunGrupo.php");
-
-
+        
     }
 
 ?>

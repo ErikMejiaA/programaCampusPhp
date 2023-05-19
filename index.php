@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.6.4.slim.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <title>Document</title>
+    <title>Formulario Candidatos</title>
 </head>
-<body>
+<body class="inicio">
+
     <header>
         <section class="encabezado">
             <img id="logo" src="img/logoWhite.png" alt="Logo Campus">
