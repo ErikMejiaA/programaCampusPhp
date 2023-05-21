@@ -102,3 +102,19 @@ header{
     font-size: 90px;
     font-weight: 800;
 }
+
+#emoji {
+   display: none;
+}
+
+#emoji img {
+    width: 80%;
+}
+
+#logoCampusLand {
+    display: none;
+}
+
+#logoCampusLand img {
+    width: 100%;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.6.4.slim.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="verImagen.js" defer></script>
     <title>Formulario Candidatos</title>
 </head>
 <body class="inicio">
@@ -60,7 +61,7 @@
                                     <div class="mb-3">
                                         <label for="estudio" class="form-label">Seleccione el nivel de estudio:</label>
                                         <select class="form-select" id="estudio" name="estudio">
-                                            <option selected>Nivel de Estudios</option>
+                                            <option  selected>Nivel de Estudios</option>
                                             <option value="1">Bachiller</option>
                                             <option value="2">Tecnico</option>
                                             <option value="3">Tecnologo</option>
@@ -69,15 +70,21 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-3">
                                     <div class="mb-3">
                                         <label for="idioma" class="form-label">Seleccione su nivel de Ingles:</label>
                                         <select class="form-select" id="idioma" name="idioma">
-                                            <option selected>nivel de ingles</option>
+                                            <option  value="0" selected>nivel de ingles</option>
+
                                             <option value="1">Basico</option>
-                                            <option value="2">Intermedio</option>
-                                            <option value="3">Avanzado</option>
+                                            <option value="2">Intermedio<span></span></option>
+                                            <option value="3">Avanzado<span></span></option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="mb-3" id="emoji">
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -89,46 +96,53 @@
                                 <div class="col-2">
                                     <div class="form-check">
                                         <label class="form-check-label" for="python">PYTHON</label>
-                                        <input class="form-check-input" type="checkbox" value="PYTHON" id="python" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="PYTHON" id="python" name="programa[]">
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="html">HTML</label>
-                                        <input class="form-check-input" type="checkbox" value="HTML" id="html" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="HTML" id="html" name="programa[]">
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="js">JS</label>
-                                        <input class="form-check-input" type="checkbox" value="JS" id="js" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="JS" id="js" name="programa[]">
                                     </div>
                                 </div>
                                 <div class="col-2">
                                     <div class="form-check">
                                         <label class="form-check-label" for="css">CSS</label>
-                                        <input class="form-check-input" type="checkbox" value="CSS" id="css" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="CSS" id="css" name="programa[]">
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="php">PHP</label>
-                                        <input class="form-check-input" type="checkbox" value="PHP" id="php" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="PHP" id="php" name="programa[]">
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="node.js">NODE.js</label>
-                                        <input class="form-check-input" type="checkbox" value="NODE.js" id="node.js" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="NODE.js" id="node.js" name="programa[]">
                                     </div>
                                 </div>
                                 <div class="col-2">
                                     <div class="form-check">
                                         <label class="form-check-label" for="c#">C#</label>
-                                        <input class="form-check-input" type="checkbox" value="C#" id="c#" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="C#" id="c#" name="programa[]">
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="TyPeScritp">TyPeScritp</label>
-                                        <input class="form-check-input" type="checkbox" value="TyPeScritp" id="TyPeScritp" name="programa[]">
+                                        <input class="form-check-input che" type="checkbox" value="TyPeScritp" id="TyPeScritp" name="programa[]">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                </div>
+                                <div class="col-3">
+                                    <div class="mb-3" id="logoCampusLand">
+                                        <img src="img/campusland.png" alt="Logo CampusLand" srcset="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="container text-center">
-                            <button type="reset" class="btn btn-primary botonn">LIMPIAR</button>
-                            <button type="submit" class="btn btn-success botonn">ENVIAR</button>
+                            <button type="reset" class="btn btn-primary limpiar">LIMPIAR</button>
+                            <button type="submit" class="btn btn-success enviar">ENVIAR</button>
                         </div>
                     </form>
                 </div>
