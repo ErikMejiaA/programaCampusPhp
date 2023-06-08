@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Source+Code+Pro:ital@1&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 /* logo de nav en donde sea aplicable */
 * {
     margin: 0;
@@ -22,16 +20,6 @@
 .apolo {
     font-family: 'Permanent Marker', cursive;
 	background-image: url(/img/apolo.jpg);
-	color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.artemis {
-    font-family: 'Permanent Marker', cursive;
-	background-image: url(/img/artemis.jpg);
 	color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +60,7 @@
 #logo{
     width: 25%;
     align-items: center;
-  }
+}
 
 header{
     width: 100%;
